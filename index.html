@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Rescue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cyber Rescue</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#report">Report a Scam</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Cyber Rescue</h2>
+            <p>Your go-to platform for scam detection, reporting, and cybersecurity solutions.</p>
+        </div>
+    </section>
+
+    <section id="report">
+        <div class="container">
+            <h2>Report a Scam</h2>
+            <form id="scamForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="scamDetails">Scam Details:</label>
+                <textarea id="scamDetails" name="scamDetails" required></textarea>
+
+                <button type="submit">Submit Report</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="container">
+            <h2>Educational Resources</h2>
+            <div class="resource-list">
+                <div class="resource">
+                    <h3>How to Identify Phishing Scams</h3>
+                    <p>Learn how to recognize phishing emails and links that could lead to stolen information.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="resource">
+                    <h3>Securing Your Online Accounts</h3>
+                    <p>Protect your accounts with strong passwords and two-factor authentication.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="resource">
+                    <h3>What to Do if You've Been Scammed</h3>
+                    <p>Step-by-step guide on how to recover after being a victim of online scams.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us at: <a href="mailto:contact@cyberrescue.com">contact@cyberrescue.com</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
